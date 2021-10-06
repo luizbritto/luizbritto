@@ -1,0 +1,63 @@
+body{
+  background-image: url(https://wallup.net/wp-content/uploads/2016/01/129751-video_games.jpg);
+  background-repeat: no-repeat;
+  background-size: whidth 100px;
+}
+
+.titulo-1{
+    background-color: black;
+    padding: 10px ;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+ 
+}
+.vd{
+     box-sizing: border-box;
+     margin: 20px 40px;
+    border: 10px solid powderblue;
+    top: 190px; right: -10px;
+    display: inline-block;
+}
+.apresentaçao{
+     text-align: center;
+       color: white;
+    font-size: 22px;
+    width: 550px;
+    margin: 20px 40px;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:black;
+    list-style:none;
+    font-size: 25px;
+    text-align: left;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color:orangered;
+    border-bottom:3px solid #EA0000;
+}
+.info{
+    float: left;
+    color: white;
+     font-size: 19px;
+     text-align: center;
+}
+
+.wrapper {display: table;}
+.div1, .div2 { display: table-cell;}
+.div1 {width: 100%;}
+.div2 {width: 100%;}
